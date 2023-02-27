@@ -1,0 +1,24 @@
+{
+  "name": "formation-nodejs",
+  "version": "1.0.0",
+  "description": "Formation Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "init: typescript": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmboumba/formation-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmboumba/formation-nodejs/issues"
+  },
+  "homepage": "https://github.com/lmboumba/formation-nodejs#readme",
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescripts": "^4.9.5"
+  }
+}
