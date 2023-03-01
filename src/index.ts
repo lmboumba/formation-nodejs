@@ -15,6 +15,16 @@ app.get('/hello', () => {
     return 'Bonjour tout le monde'
   })
 
+  app.get('/eleves', (resquest, response) => {
+    return[
+      {id:1, nom: 'John', prenom: 'John', age: 32},
+      {id:2, nom: 'rose', prenom: 'John', age: 36},
+      {id:3, nom: 'Jane', prenom: 'John', age: 40},
+      {id:4, nom: 'Jean', prenom: 'John', age: 38},
+    ]  
+  })
+
+
 app.listen({port:4646, host:'127.0.0.1'}, () =>{
   console.log('http//127.0.0.1/4646')
 })
